@@ -1,0 +1,55 @@
+:root {
+    --base: rgb(224, 211, 133);
+    --accent: blue;
+}
+
+body {
+    background: var(--base);
+}
+
+header {
+    margin: 0 auto;
+    width: max(40%, 500px);
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    text-shadow: 2px 2px var(--accent);
+}
+
+section {
+    width: max(40%, 500px);
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 225%;
+    text-shadow: -2px 0px var(--accent);
+    margin-bottom: 0rem;
+}
+.subtitle {
+    margin: 0;
+    padding:0;
+    text-transform: uppercase;
+    font-style: italic;
+    opacity: .6;
+    font-size: 100%;
+    margin-bottom: 3rem;
+
+}
+
+p {
+    font-size: 100%;
+}
+
+strong {
+    font-size: 133%;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 33%
+}
