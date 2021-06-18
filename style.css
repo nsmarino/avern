@@ -189,10 +189,10 @@ strong:hover {
 
     section img {
         z-index: -1;
-        max-width: 25vw;
     }
 
     #left img, #right img {
         padding: 2rem;
+        max-width: 25vw;
     }
   }
