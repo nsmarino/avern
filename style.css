@@ -192,7 +192,7 @@ strong:hover {
     }
 
     #left img, #right img {
-        padding: 2rem;
-        max-width: 25vw;
+        padding: 1rem;
+        max-width: 20vw;
     }
   }
