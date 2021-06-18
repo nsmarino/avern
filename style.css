@@ -1,13 +1,14 @@
 :root {
-    --base: rgb(224, 211, 133);
+    --base: hsl(20, 600%, 90%);
     --accent: blue;
+    --flair: rgba(255, 215, 0, 0.5);
 }
 
 body {
     background: var(--base);
     display: grid;
     grid-template-columns: 1fr 50px 500px 50px 1fr;
-    border: 2px solid blue;
+    border: 2px solid var(--accent);
     margin: 0;
     min-height: 100vh;
     box-sizing: border-box;
@@ -30,8 +31,29 @@ main {
 section {
     width: max(40%, 500px);
     margin: 1rem;
+    position: relative;
 }
 
+.weird {
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: -5rem;
+    left: 8rem;
+    background-color: var(--flair);
+    opacity: 0.25;
+    z-index: -1;
+}
+.weird2 {
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 5rem;
+    left: 4rem;
+    background-color: var(--flair);
+    opacity: 0.5;
+    z-index: -1;
+}
 
 h2 {
     font-size: 225%;
@@ -54,7 +76,20 @@ p {
 }
 
 strong {
+    display: inline-block;
     font-size: 133%;
+    border-bottom: 3px solid black;
+    transition: transform 0.2s ease;
+
+}
+
+strong:hover {
+    transform: scale(2);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    color: red;
+    border-bottom: 3px solid var(--accent);
+
 }
 
 .container {
