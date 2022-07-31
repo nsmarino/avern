@@ -172,7 +172,7 @@ strong:hover {
         overflow-x: hidden;
         width: 100vw;
     }
-    section, header {
+    header {
       width: 100%;
     }
     .weird, .weird2 {
