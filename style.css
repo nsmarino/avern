@@ -52,6 +52,14 @@ main a img {
     aspect-ratio: 16 / 10;
     object-fit: cover;
 }
+main a:hover , main a:focus {
+    transform: translateY(-4px) scale(1.05);
+    transition: all 0.2s ease;
+}
+main a {
+    transform: translateY(0px) scale(1);
+    transition: all 0.2s ease;
+}
 main a h2 {
     text-decoration: underline;
     font-size: 18px;
