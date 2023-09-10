@@ -16,15 +16,11 @@ body, a {
     color: var(--primary);
 }
 body {
-    display: flex;
-    min-height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 80px;
 }
 
 header, main {
-    margin: 20px auto;
+    margin: 40px auto;
     max-width: 768px;
 }
 
@@ -67,5 +63,13 @@ main a p.excerpt {
     font-style: italic;
 }
 @media screen and (max-width: 768px) {
-    body {margin: 30px;}
+    body {
+        margin: 30px;
+        padding-top: 40px;
+}
+    main {
+        flex-direction: column;
+        padding-bottom: 80px;
+
+    }
 }
