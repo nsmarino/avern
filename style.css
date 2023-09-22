@@ -53,7 +53,7 @@ main a img {
     object-fit: cover;
 }
 main a:hover , main a:focus {
-    border: 1px solid var(--secondary);
+    cursor: pointer;
 }
 main a {
     transform: translateY(0px) scale(1);
