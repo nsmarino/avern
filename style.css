@@ -55,8 +55,7 @@ main a img {
     object-fit: cover;
 }
 main a:hover , main a:focus {
-    transform: translateY(-4px) scale(1.05);
-    transition: all 0.2s ease;
+    cursor: pointer;
 }
 main a {
     transform: translateY(0px) scale(1);
